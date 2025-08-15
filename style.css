@@ -7,18 +7,18 @@
 body {
     min-height: 100vh;
     background: linear-gradient(135deg, #232526 0%, #414345 100%);
-    color: #f8f8f8;
+   
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     gap: 1em;
     font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
-    overflow: hidden;
+   
 }
 
 h1 {
-    margin-top: 2em;
+    color: white;
     font-size: 2.5em;
     letter-spacing: 2px;
     text-shadow: 0 2px 8px rgba(0,0,0,0.4);
@@ -44,6 +44,52 @@ button:hover {
     box-shadow: 0 8px 24px rgba(255, 83, 83, 0.25);
 }
 
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#lahore {
+    background: linear-gradient(90deg, #28a745 0%, #6cc070 100%);
+}
+#lahore:hover {
+    background: linear-gradient(90deg, #6cc070 100%, #28a745 0%);
+}
+
+
+#okara {
+    background: linear-gradient(90deg, #ff9800 0%, #ffc107 100%);
+}
+
+#okara:hover {
+    background: linear-gradient(90deg, #ffc107 100%, #ff9800 0%);
+}
+
+
+#kar {
+    background: linear-gradient(90deg, #2196f3 0%, #03a9f4 100%);
+}
+
+#kar:hover {
+    background: linear-gradient(90deg, #03a9f4 100%, #2196f3 0%);
+}
+
+
+#isl {
+    background: linear-gradient(90deg, #9c27b0 0%, #ba68c8 100%);
+}
+
+#isl:hover {
+    background: linear-gradient(90deg, #ba68c8 100%, #9c27b0 0%);
+}
+
+
 #map {
     width: 90vw;
     max-width: 900px;
@@ -53,11 +99,18 @@ button:hover {
     box-shadow: 0 8px 32px rgba(255, 255, 255, 0.15), 0 1.5px 6px rgba(0,0,0,0.25);
     display: none;
     overflow: hidden;
-    margin-bottom: 2em;
+  
     background: #222;
     transition: box-shadow 0.3s;
 }
 
 #map:active, #map:focus-within {
     box-shadow: 0 0 40px 8px #ff5353, 0 8px 32px rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 600px) {
+  
+    .leaflet-routing-alternatives-container{
+    display: none;
+}
 }
