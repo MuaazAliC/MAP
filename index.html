@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map by Muaaz</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-       <link rel="shortcut icon" href="https://raw.githubusercontent.com/MuaazAliC/Internship-Projects/refs/heads/main/6th/img/pf.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon"
+        href="https://raw.githubusercontent.com/MuaazAliC/Internship-Projects/refs/heads/main/6th/img/pf.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
 </head>
+
 <body>
-    <h1><i class="fa-solid fa-location-dot fa-bounce" style="color: #ff2e38;"></i><span style="padding: 10px;"></span>Location</h1>
+    <h1><i class="fa-solid fa-location-dot fa-bounce" style="color: #ff2e38;"></i><span
+            style="padding: 10px;"></span>Location</h1>
+    <ul id="list" style="display: none;">
+        <li><button id="lahore">Lahore</button></li>
+        <li><button id="okara">Okara</button></li>
+        <li><button id="kar">Karachi</button></li>
+        <li><button id="isl">Islamabad</button></li>
+    </ul>
     <div id="map"></div>
     <button id="user_location">My Location</button>
+
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
     <script src="script.js"></script>
+
+
 </body>
+
 </html>
