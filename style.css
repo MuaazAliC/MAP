@@ -12,8 +12,9 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
     font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    overflow: hidden;
 }
 
 h1 {
