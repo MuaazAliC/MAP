@@ -91,15 +91,14 @@ ul {
 
 
 #map {
-    width: 90vw;
-    max-width: 900px;
+    width: 95vw;
+   
     height: 60vh;
     border: 3px solid #fff;
     border-radius: 18px;
     box-shadow: 0 8px 32px rgba(255, 255, 255, 0.15), 0 1.5px 6px rgba(0,0,0,0.25);
     display: none;
-    overflow: hidden;
-  
+   
     background: #222;
     transition: box-shadow 0.3s;
 }
