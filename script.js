@@ -264,17 +264,17 @@ const Okara = { lat: 30.8104, lng: 73.6840 };
 
 Lahore_btn.addEventListener("click", () => {
   showRouteToCity(Lahore, "Lahore");
-  showCityKeypoints("Lahore");
+  
 });
 Karachi_btn.addEventListener("click", () => {
   showRouteToCity(Karachi, "Karachi");
-  showCityKeypoints("Karachi");
+
 });
 Islamabad_btn.addEventListener("click", () => {
   showRouteToCity(Islamabad, "Islamabad");
-  showCityKeypoints("Islamabad");
+  
 });
 Okara_btn.addEventListener("click", () => {
   showRouteToCity(Okara, "Okara");
-  showCityKeypoints("Okara");
+  
 });
